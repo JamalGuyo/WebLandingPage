@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.b1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: url("UBOxkDS.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    display: table;
+}
+.b1 .in1{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    text-align: center;
+    margin:auto;
+    max-width: 500px;
+}
+.content h1{
+    font-family: 'Century Gothic', sans-serif;
+    color: #f9f3f4;
+    font-size: 500%;
+    text-shadow: 0 0 300px #000;
+}
+.content a{
+    text-decoration: none;
+    border-radius: 9px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #f9f3f4;
+    border: 3px solid ;
+    padding: 7px 13px;
+    font-weight: bold;
+}
+.content a:hover{
+    color: #2196F3;
+}
